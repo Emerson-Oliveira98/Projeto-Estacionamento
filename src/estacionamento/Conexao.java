@@ -19,9 +19,7 @@ public class Conexao {
             String url = "";
             url += "jdbc:mysql://127.0.0.1/estacionamento?";
             url += "user=root&password=";
-            //url += "jdbc:mysql://10.0.30.32:3306/numeroserial?";
-           // url += "user=root&password=@NmultiMSQL288";
-           // url = ("jdbc:mysql://localhost/ProjetoPizzaria","root","");  /127.0.0.1
+
             con = DriverManager.getConnection(url);
             System.out.println("Conexão aberta.");
            
